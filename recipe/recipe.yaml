@@ -1,6 +1,6 @@
 context:
   name: "portal"
-  version: "3.7.3"
+  version: "3.8.1"
 
 package:
   name: ${{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/portal-${{ version }}.tar.gz
-  sha256: 543b8e177d22b2efb3c3a966ab0164871ef6a31a5cf60faf2d45286b3efd969b
+  sha256: 8abf9620f0772272b7e970ffc8ceccae2f282660f5023eeba9a58dbb2d75d2f8
 
 build:
   noarch: python
